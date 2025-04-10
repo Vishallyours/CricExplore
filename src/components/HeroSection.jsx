@@ -60,8 +60,8 @@ function HeroSection() {
                         text-2xl
                         font-bold
                         bg-yellow-500
-                        hover:bg-yellow-100
-                        border-solid
+                        hover:bg-yellow-100/10
+                        hover:text-yellow-500
                         rounded-full
                         
                         ">

@@ -3,7 +3,8 @@ function Navbar(){
     return(
         <>
             <div className="
-                            bg-gray-800 
+                            bg-black/50
+                            backdrop-blur-3xl 
                             sticky 
                             top-0
                             z-50
@@ -23,7 +24,7 @@ function Navbar(){
                         Cric
                     </span>
                     
-                    <span className="text-yellow-200    ">
+                    <span className="text-yellow-500    ">
                     Explore
                     </span>
                     
@@ -39,7 +40,8 @@ function Navbar(){
                             mx-4
 
                             ">
-                <button className="hover:bg-black/10
+                <button className="hover:text-yellow-300/90
+                                     hover:bg-yellow-100/10
                                      text-white
                                      flex
                                      mx-2
@@ -50,13 +52,16 @@ function Navbar(){
                     Home
                 </button> 
              
-                <button className="hover:bg-black/10
+                <button className="
+                                    hover:text-yellow-300/90
+                                    hover:bg-yellow-100/10
                                      text-white
                                      flex
                                      mx-2
                                      px-4
                                      py-2
                                      rounded-4xl
+                                     
                                      ">
                     Privacy
                 </button> 
