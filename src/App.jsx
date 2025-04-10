@@ -1,12 +1,21 @@
 import Navbar from '../src/components/Navbar';
-import Hero from './components/Hero';
+import HeroSection from './components/HeroSection';
+import GridSection from './components/GridSection';
+import StatSection from './components/StatSection';
+
 function App() {
   
 
   return (
     <>
+    <div
+    className='bg-gray-800 '>
+
         <Navbar/>
-        <Hero/>
+        <HeroSection/>
+        <GridSection/>
+        <StatSection/>
+    </div>
     </>
   )
 }
