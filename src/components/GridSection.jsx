@@ -1,3 +1,7 @@
+import img1 from "/assets/img1.jpg";
+import img2 from "/assets/img2.jpg";
+import img3 from "/assets/img3.jpg";
+import img4 from "/assets/img4.jpg";
 
 function GridSection(){
     return(
@@ -19,10 +23,10 @@ function GridSection(){
         
                 
             <div className=" grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-4 my-24">
-                <img src={`${import.meta.env.BASE_URL}assets/img1.jpg`} className="rounded-xl object-cover w-96 h-48 "></img>           
-                <img src={`${import.meta.env.BASE_URL}assets/img2.jpg`} className="rounded-xl object-cover w-96 h-48 "></img>           
-                <img src={`${import.meta.env.BASE_URL}assets/img3.jpg`} className="rounded-xl object-cover w-96 h-48 "></img>           
-                <img src={`${import.meta.env.BASE_URL}assets/img4.jpg`} className="rounded-xl object-cover w-96 h-48 "></img>           
+                <img src={img1} alt="img" className="rounded-xl object-cover w-96 h-48 "></img>           
+                <img src={img2} alt="img" className="rounded-xl object-cover w-96 h-48 "></img>           
+                <img src={img3} alt="img" className="rounded-xl object-cover w-96 h-48 "></img>           
+                <img src={img4} alt="img" className="rounded-xl object-cover w-96 h-48 "></img>           
             </div>
        
             <div className=" text-yellow-500 w-full h-full flex justify-center text-3xl font-bold pt-24 ">
