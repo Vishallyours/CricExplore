@@ -1,4 +1,4 @@
-import { BrowserRouter as Router, Routes, Route, useLocation } from 'react-router-dom';
+import { HashRouter as Router, Routes, Route, useLocation } from 'react-router-dom';
 import Navbar from '../src/components/Navbar';
 import HeroSection from './components/HeroSection';
 import GridSection from './components/GridSection';
