@@ -19,10 +19,10 @@ function GridSection(){
         
                 
             <div className=" grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-4 my-24">
-                <img src="/assets/img1.jpg" alt="img" className="rounded-xl object-cover w-96 h-48 "></img>           
-                <img src="/assets/img2.jpg" alt="img" className="rounded-xl object-cover w-96 h-48 "></img>           
-                <img src="/assets/img3.jpg" alt="img" className="rounded-xl object-cover w-96 h-48 "></img>           
-                <img src="/assets/img4.jpg" alt="img" className="rounded-xl object-cover w-96 h-48 "></img>           
+                <img src={`${import.meta.env.BASE_URL}assets/img1.jpg`} className="rounded-xl object-cover w-96 h-48 "></img>           
+                <img src={`${import.meta.env.BASE_URL}assets/img2.jpg`} className="rounded-xl object-cover w-96 h-48 "></img>           
+                <img src={`${import.meta.env.BASE_URL}assets/img3.jpg`} className="rounded-xl object-cover w-96 h-48 "></img>           
+                <img src={`${import.meta.env.BASE_URL}assets/img4.jpg`} className="rounded-xl object-cover w-96 h-48 "></img>           
             </div>
        
             <div className=" text-yellow-500 w-full h-full flex justify-center text-3xl font-bold pt-24 ">
