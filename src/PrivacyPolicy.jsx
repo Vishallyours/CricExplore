@@ -4,13 +4,13 @@ function Privacy() {
     return(
         <>
         <div className="overflow-hidden flex justify-center items-center
-        bg-white w-screen h-auto text-white gap-4 ">
+        bg-white w-full h-auto text-white gap-4 ">
 
-        <div  id="container" className="m-8 p-8 flex flex-col rounded-xl gap-4 shadow-2xl bg-white text-black">
+        <div  id="container" className="my-8 mx-48 px-8 py-4 flex flex-col w-full rounded-xl gap-4 shadow-2xl bg-white text-black">
                 
             
         <span className='px-4'>
-            <h1 className='text-3xl font-bold pt-4'>Privacy Policy</h1>
+            <h1 className='text-4xl font-bold pt-4'>Privacy Policy</h1>
             <span>Welcome to CricketExplore. Your privacy is important to us.</span>    
         </span>
                 
