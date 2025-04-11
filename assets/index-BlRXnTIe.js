@@ -96,7 +96,7 @@ Please change the parent <Route path="${X}"> to <Route path="${X==="/"?"*":`${X}
                                      px-4
                                      py-2
                                      rounded-4xl
-                                     `,children:"Privacy"})]})]})})}const sv="/assets/Image_Hero-DVz8EXRe.jpg";function ov(){return T.jsx(T.Fragment,{children:T.jsxs("div",{className:"relative h-screen w-full overflow-hidden ",children:[T.jsx("img",{className:`
+                                     `,children:"Privacy"})]})]})})}const sv="/CricExplore/assets/Image_Hero-DVz8EXRe.jpg";function ov(){return T.jsx(T.Fragment,{children:T.jsxs("div",{className:"relative h-screen w-full overflow-hidden ",children:[T.jsx("img",{className:`
             flex 
             -my-16
             overflow-x-hidden
