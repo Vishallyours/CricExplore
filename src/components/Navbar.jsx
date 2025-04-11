@@ -1,4 +1,8 @@
+import { useNavigate } from 'react-router-dom';
+
+
 function Navbar(){
+    const navigate = useNavigate();
 
     return(
         <>
@@ -24,7 +28,7 @@ function Navbar(){
                         Cric
                     </span>
                     
-                    <span className="text-yellow-500    ">
+                    <span className="text-yellow-500">
                     Explore
                     </span>
                     
@@ -40,7 +44,8 @@ function Navbar(){
                             mx-4
 
                             ">
-                <button className="hover:text-yellow-300/90
+                <button   onClick={() => navigate('/')} 
+                          className="hover:text-yellow-300/90
                                      hover:bg-yellow-100/10
                                      text-white
                                      flex
@@ -52,8 +57,8 @@ function Navbar(){
                     Home
                 </button> 
              
-                <button className="
-                                    hover:text-yellow-300/90
+                <button onClick = {() => navigate('/PrivacyPolicy')}
+                        className=" hover:text-yellow-300/90
                                     hover:bg-yellow-100/10
                                      text-white
                                      flex
@@ -61,9 +66,8 @@ function Navbar(){
                                      px-4
                                      py-2
                                      rounded-4xl
-                                     
-                                     ">
-                    Privacy
+                                     "> 
+                        Privacy
                 </button> 
             </div>
             

@@ -1,15 +1,19 @@
+import { useNavigate } from 'react-router-dom';
+
 function Footer(){
+    const navigate = useNavigate();
+
     return (
     <>
     <div className="flex flex-col text-white bg-black/50 h-24 justify-center gap-2 ">
 
 
     <div className="flex gap-4 justify-center">
-        <button className="hover:text-yellow-300/90 flex rounded-4xl">
+        <button onClick={() => navigate('/')}  className="hover:text-yellow-300/90 flex rounded-4xl">
             Home
         </button> 
              
-        <button className="hover:text-yellow-300/90 flex rounded-4xl">
+        <button onClick = {() => navigate('/PrivacyPolicy')} className="hover:text-yellow-300/90 flex rounded-4xl">
             Privacy
         </button> 
     </div>
